@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="shape-container">
+  
+    <div class="shape-content">
+        <div class="white-block right-bottom">
+          <div class="inner-block"></div>
+        </div>
+        <div class="white-block put-end">
+          <div class="inner-block"></div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+height: 100vh;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.container {
+  width: 50%;
+  height: 50%;
+}
+.shape-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  background: #4F77FF;
+}
+
+.shape-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.white-block {
+  width: 75%;
+  height: 50%;
+  background: #FFFFFF;
+  margin: 12.5%;
+  display:flex;
+} 
+
+.inner-block {
+  width: 50%;
+  height: 33.3%;
+  background: #4F77FF;
+  margin: 0;
+}
+
+.right-bottom {
+align-items: end;
+justify-content: end;
+}
+
+.put-end {
+align-self: end;
+}
+</style>
