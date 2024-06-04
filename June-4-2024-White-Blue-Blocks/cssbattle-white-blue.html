@@ -1,74 +1,78 @@
-<div class="container">
-  <div class="shape-container">
-  
-    <div class="shape-content">
-        <div class="white-block right-bottom">
-          <div class="inner-block"></div>
-        </div>
-        <div class="white-block put-end">
-          <div class="inner-block"></div>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSSBattle June-4-2024</title>
+</head>
+<body>
+  <div class="container">
+    <div class="shape-container">
+      <div class="shape-content">
+          <div class="white-block right-bottom">
+            <div class="inner-block"></div>
+          </div>
+          <div class="white-block put-end">
+            <div class="inner-block"></div>
+          </div>
+      </div>
     </div>
   </div>
-</div>
-
-
-
+</body>
 <style>
-* {
-box-sizing: border-box;
-}
-body {
-margin: 0;
-height: 100vh;
-display:flex;
-align-items: center;
-justify-content: center;
-}
-.container {
-  width: 50%;
-  height: 50%;
-}
-.shape-container {
-  position: relative;
-  width: 100%;
-  padding-top: 75%;
-  background: #4F77FF;
-}
-
-.shape-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-
-
-.white-block {
-  width: 75%;
-  height: 50%;
-  background: #FFFFFF;
-  margin: 12.5%;
-  display:flex;
-} 
-
-.inner-block {
-  width: 50%;
-  height: 33.3%;
-  background: #4F77FF;
+  * {
+  box-sizing: border-box;
+  }
+  body {
   margin: 0;
-}
-
-.right-bottom {
-align-items: end;
-justify-content: end;
-}
-
-.put-end {
-align-self: end;
-}
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .container {
+    width: 50%;
+    height: 50%;
+  }
+  .shape-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+    background: #4F77FF;
+  }
+  
+  .shape-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .white-block {
+    width: 75%;
+    height: 50%;
+    background: #FFFFFF;
+    margin: 12.5%;
+    display:flex;
+  } 
+  
+  .inner-block {
+    width: 50%;
+    height: 33.3%;
+    background: #4F77FF;
+    margin: 0;
+  }
+  
+  .right-bottom {
+  align-items: end;
+  justify-content: end;
+  }
+  
+  .put-end {
+  align-self: end;
+  }
 </style>
+</html>
